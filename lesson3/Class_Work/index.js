@@ -144,23 +144,23 @@
 //чтобы избежать проблем не нужно использовать <> <=>=  с переменными, которые могут принимать значения null/undefined и если переменная может принимать
 // эти значения, то желательно добавить для них отдельные проверки на null/undefined
 
-console.log("2" > "12"); //true
-console.log(2 > "12"); //false
-let a = null;
-let b;
-console.log(a == b); //true
+// console.log("2" > "12"); //true
+// console.log(2 > "12"); //false
+// let a = null;
+// let b;
+// console.log(a == b); //true
 
-console.log(true + false); //1
-console.log("" + 1 + 0); //"10" т.к. бинарный плюс со строкой приводит к конкатенации
-console.log("" - 1 + 0); //-1  т.к. с другими мат. операциями происходит преобразование типа в number и дальнейшая мат. операция
-console.log(true + "" + false); //"truefalse"
-console.log(true + false + ""); //"1" потому что мы выполняем операции слева на право т.е. первый плюч между true + false даст математическую единицу
-//а второй плюч будет между мат. единицей и строкой
-// NaN not a namber т.е. не валидное значение
-console.log("\t\n" - 2); //-2 т.к. при преобразование строки эти спец символы дают пробел и перевод строки т.е. получается нулевая строка
+// console.log(true + false); //1
+// console.log("" + 1 + 0); //"10" т.к. бинарный плюс со строкой приводит к конкатенации
+// console.log("" - 1 + 0); //-1  т.к. с другими мат. операциями происходит преобразование типа в number и дальнейшая мат. операция
+// console.log(true + "" + false); //"truefalse"
+// console.log(true + false + ""); //"1" потому что мы выполняем операции слева на право т.е. первый плюч между true + false даст математическую единицу
+// //а второй плюч будет между мат. единицей и строкой
+// // NaN not a namber т.е. не валидное значение
+// console.log("\t\n" - 2); //-2 т.к. при преобразование строки эти спец символы дают пробел и перевод строки т.е. получается нулевая строка
 
-console.log(null == null); //true
-console.log(null == undefined); //true
-console.log(null == 0); //false
-console.log(null === undefined); //false
-console.log(null === null); //true
+// console.log(null == null); //true
+// console.log(null == undefined); //true
+// console.log(null == 0); //false
+// console.log(null === undefined); //false
+// console.log(null === null); //true
